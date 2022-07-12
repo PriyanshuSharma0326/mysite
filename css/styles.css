@@ -3,12 +3,17 @@
 .top-container {
     position: relative;
     padding-top: 100px;
+    background-color: #E4F9F5;
 }
 
 .middle-container {
 }
 
 .bottom-container {
+}
+
+.profile {
+    margin-top: 30px;
 }
 
 .top-cloud {
@@ -34,28 +39,98 @@
 }
 
 .web {
-    text-decoration: underline;
+    font-weight: 800;
+    color: #51557E;
 }
 
 .title {
     margin: 20px auto 0 auto;
     font-family: "Brush Script MT", cursive;
     font-size: 50px;
-    color: #ff535f;
+    color: #1B2430;
 }
 
 .my-photo {
-    margin-top: 20px;
+    margin-top: 20px
 }
 
-.skill-art-img:hover, .skill-web-img:hover {
+.web-img {
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
+
+.art-img {
+    width: 20%;
+    float: right;
+    margin-left: 30px;
+}
+
+.skill-img:hover {
     opacity: 80%;
 }
 
-.web {
+.lookup {
     font-family: 'Edu TAS Beginner', cursive;
     font-size: 20px;
-    color: #552e20;
+    color: #51557E;
+    font-weight: 600;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.heading {
+    font-family: 'Gentium Book Plus', serif;
+    color: #1B2430;
+    text-decoration: underline;
+}
+
+.intro {
+    font-family: 'Shadows Into Light', cursive;
+    color: #51557E;
+}
+
+.skill-title {
+    font-family: 'Russo One', sans-serif;
+    color: #222222;
+    text-shadow: #000000;
+}
+
+.h3tag {
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+.footer-link {
+    text-decoration: none;
+    margin: 30px;
+    font-family: 'Bangers', cursive;
+    color: #0A043C;
+}
+
+.footer-link:hover {
+    color: #03506F;
+}
+
+.letmeknow {
+    font-family: 'Francois One', sans-serif;
+    color: #060930;
+}
+
+.bottom-container {
+    background-color: #ACFFF0;
+    padding: 10px 0 10px 0;
+}
+
+.tm {
+    margin: 0;
+    margin-top: 10px;
+    font-family: 'Mitr', sans-serif;
+    font-weight: bold;
 }
 
 /* Attribute selectors */
@@ -63,11 +138,11 @@
 body {
     margin: 0;
     text-align: center;
-    background-color: #E4F9F5;
 }
 
 p {
-    font-size: 20px;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 600;
 }
 
 hr {
@@ -75,8 +150,8 @@ hr {
     border-style: none;
     border-top-style: dotted;
     border-width: 5px;
-    border-color: #368677;
-    width: 65%;
+    border-color: #0C4271;
+    width: 35%;
     margin-top: 30px;
     margin-bottom: 30px; 
 }
@@ -85,6 +160,38 @@ h2 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-table {
-    margin: 50px auto 0 auto;
-}
+.btn {
+    background: #E4F9F5;
+    background-image: -webkit-linear-gradient(top, #E4F9F5, #E4F9F5);
+    background-image: -moz-linear-gradient(top, #E4F9F5, #E4F9F5);
+    background-image: -ms-linear-gradient(top, #E4F9F5, #E4F9F5);
+    background-image: -o-linear-gradient(top, #E4F9F5, #E4F9F5);
+    background-image: -webkit-gradient(to bottom, #E4F9F5, #E4F9F5);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: #1B2430;
+    font-family: Helvetica;
+    font-size: 17px;
+    font-weight: 100;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .btn:hover {
+    border: solid #A9FEEE 1px;
+    background: #A9FEEE;
+    background-image: -webkit-linear-gradient(top, #A9FEEE, #A9FEEE);
+    background-image: -moz-linear-gradient(top, #A9FEEE, #A9FEEE);
+    background-image: -ms-linear-gradient(top, #A9FEEE, #A9FEEE);
+    background-image: -o-linear-gradient(top, #A9FEEE, #A9FEEE);
+    background-image: -webkit-gradient(to bottom, #A9FEEE, #A9FEEE);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+ }
