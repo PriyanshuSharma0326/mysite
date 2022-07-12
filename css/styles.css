@@ -1,0 +1,90 @@
+/* Class Selectors */
+
+.top-container {
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container {
+}
+
+.bottom-container {
+}
+
+.top-cloud {
+    position: absolute;
+    right: 400px;
+    top: 50px;
+}
+
+.right-cloud {
+    position: absolute;
+    right: 520px;
+    bottom: 260px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 400px;
+    bottom: 380px ;
+}
+
+.mountain {
+    width: 750px;
+}
+
+.web {
+    text-decoration: underline;
+}
+
+.title {
+    margin: 20px auto 0 auto;
+    font-family: "Brush Script MT", cursive;
+    font-size: 50px;
+    color: #ff535f;
+}
+
+.my-photo {
+    margin-top: 20px;
+}
+
+.skill-art-img:hover, .skill-web-img:hover {
+    opacity: 80%;
+}
+
+.web {
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: 20px;
+    color: #552e20;
+}
+
+/* Attribute selectors */
+
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #E4F9F5;
+}
+
+p {
+    font-size: 20px;
+}
+
+hr {
+    background-color: #E4F9F5;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    border-color: #368677;
+    width: 65%;
+    margin-top: 30px;
+    margin-bottom: 30px; 
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    margin: 50px auto 0 auto;
+}
