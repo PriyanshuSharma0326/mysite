@@ -3,13 +3,12 @@
 .top-container {
     position: relative;
     padding-top: 100px;
-    background-color: #E4F9F5;
-}
-
-.middle-container {
+    background-color: #5588A3;
 }
 
 .bottom-container {
+    background-color: #145374;
+    padding: 20px 0 20px 0;
 }
 
 .profile {
@@ -40,7 +39,7 @@
 
 .web {
     font-weight: 800;
-    color: #51557E;
+    color: #1B2430;
 }
 
 .title {
@@ -60,10 +59,18 @@
     margin-right: 30px;
 }
 
+.web-img:hover {
+    opacity: 80%;
+}
+
 .art-img {
     width: 20%;
     float: right;
     margin-left: 30px;
+}
+
+.art-img:hover {
+    opacity: 80%;
 }
 
 .skill-img:hover {
@@ -73,7 +80,7 @@
 .lookup {
     font-family: 'Edu TAS Beginner', cursive;
     font-size: 20px;
-    color: #51557E;
+    color: #1B2430;
     font-weight: 600;
 }
 
@@ -91,8 +98,8 @@
 }
 
 .intro {
-    font-family: 'Shadows Into Light', cursive;
-    color: #51557E;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 600;
 }
 
 .skill-title {
@@ -101,29 +108,20 @@
     text-shadow: #000000;
 }
 
-.h3tag {
+.h3tag, .letmeknow {
     font-family: 'Edu NSW ACT Foundation', cursive;
 }
 
 .footer-link {
     text-decoration: none;
     margin: 30px;
-    font-family: 'Bangers', cursive;
-    color: #0A043C;
+    font-family: 'Signika Negative', sans-serif;
+    color: #EEEEEE;
+    font-weight: 600;
 }
 
 .footer-link:hover {
-    color: #03506F;
-}
-
-.letmeknow {
-    font-family: 'Francois One', sans-serif;
-    color: #060930;
-}
-
-.bottom-container {
-    background-color: #ACFFF0;
-    padding: 10px 0 10px 0;
+    color: #CCCCCC;
 }
 
 .tm {
@@ -131,6 +129,9 @@
     margin-top: 10px;
     font-family: 'Mitr', sans-serif;
     font-weight: bold;
+    position: relative;
+    top: 5px;
+    color: #EEEEEE;
 }
 
 /* Attribute selectors */
@@ -138,6 +139,7 @@
 body {
     margin: 0;
     text-align: center;
+    background-color: #E8E8E8;
 }
 
 p {
@@ -160,37 +162,27 @@ h2 {
 }
 
 .btn {
-    background: #E4F9F5;
-    background-image: -webkit-linear-gradient(top, #E4F9F5, #E4F9F5);
-    background-image: -moz-linear-gradient(top, #E4F9F5, #E4F9F5);
-    background-image: -ms-linear-gradient(top, #E4F9F5, #E4F9F5);
-    background-image: -o-linear-gradient(top, #E4F9F5, #E4F9F5);
-    background-image: -webkit-gradient(to bottom, #E4F9F5, #E4F9F5);
+    background: #145374;
+    background-image: -webkit-linear-gradient(top, #145374, #145374);
+    background-image: -moz-linear-gradient(top, #145374, #145374);
+    background-image: -ms-linear-gradient(top, #145374, #145374);
+    background-image: -o-linear-gradient(top, #145374, #145374);
+    background-image: -webkit-gradient(to bottom, #145374, #145374);
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
-    color: #1B2430;
-    font-family: Helvetica;
-    font-size: 17px;
-    font-weight: 100;
+    font-family: 'Signika Negative', sans-serif;
+    color: #EEEEEE;
+    font-weight: 600;
     padding: 10px;
+    margin-top: 20px;
     margin-bottom: 20px;
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
     text-align: center;
  }
- 
+
  .btn:hover {
-    border: solid #A9FEEE 1px;
-    background: #A9FEEE;
-    background-image: -webkit-linear-gradient(top, #A9FEEE, #A9FEEE);
-    background-image: -moz-linear-gradient(top, #A9FEEE, #A9FEEE);
-    background-image: -ms-linear-gradient(top, #A9FEEE, #A9FEEE);
-    background-image: -o-linear-gradient(top, #A9FEEE, #A9FEEE);
-    background-image: -webkit-gradient(to bottom, #A9FEEE, #A9FEEE);
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-    text-decoration: none;
+    opacity: 80%;
  }
